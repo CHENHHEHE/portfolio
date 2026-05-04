@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>陈梦园 | 品牌作品集</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        ink: '#1A1A1A',
+        muted: '#6B7280',
+        line: '#E5E7EB',
+        primary: '#334155'
+      },
+      fontFamily: {
+        sans: ['Inter', 'PingFang SC', 'Microsoft YaHei']
+      }
+    }
+  }
+}
+</script>
+</head>
+
+<body class="bg-white text-ink antialiased">
+
+<!-- Header -->
+<header class="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur z-50 border-b border-line">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <span class="font-semibold tracking-tight">陈梦园</span>
+    <nav class="hidden md:flex gap-8 text-sm">
+      <a href="#home" class="hover:text-primary">首页</a>
+      <a href="#experience" class="hover:text-primary">经历</a>
+      <a href="#works" class="hover:text-primary">作品</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section id="home" class="pt-32 pb-24 md:pt-40 md:pb-32">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
+
+    <div>
+      <p class="text-primary text-xs font-medium uppercase tracking-widest mb-4">
+        品牌策略 × 业务落地
+      </p>
+
+      <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+        陈梦园
+      </h1>
+
+      <p class="text-muted text-lg leading-relaxed max-w-xl mb-6">
+        十年深耕品牌与服务体验，擅长通过标准化与流程管理，
+        将品牌策略转化为可衡量的业务结果。
+      </p>
+
+      <p class="text-sm text-muted mb-10">
+        曾服务于浙江金昌、上海艾绿、原乡文旅等企业，
+        具备从品牌顶层设计到一线业务落地的完整闭环经验。
+      </p>
+
+      <div class="flex gap-4 mb-12">
+        <a href="#works"
+           class="px-6 py-3 bg-primary text-white text-sm font-medium hover:bg-ink transition">
+          查看作品
+        </a>
+
+        <a href="#"
+           class="px-6 py-3 border border-line text-ink text-sm font-medium hover:bg-gray-50 transition">
+          简历完善中
+        </a>
+      </div>
+
+      <div class="flex flex-wrap gap-4 text-sm text-muted">
+        <span>品牌宣传</span>
+        <span>客户服务标准化</span>
+        <span>业务闭环设计</span>
+        <span>舆情风控</span>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <div class="w-56 h-56 rounded-full overflow-hidden border border-line">
+        <img src="images/avatar.jpg" class="w-full h-full object-cover" />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Experience -->
+<section id="experience" class="py-20 border-t border-line">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-2xl font-semibold mb-12 text-center">工作经历</h2>
+
+    <div class="divide-y divide-line">
+
+      <div class="py-8">
+        <div class="flex flex-wrap justify-between items-center mb-3">
+          <h4 class="text-xl font-semibold">浙江金昌房地产集团有限公司 | 品牌/客户服务经理</h4>
+          <span class="text-muted text-sm">2023.05 - 至今</span>
+        </div>
+        <p class="text-muted leading-relaxed">
+          前期负责品牌策略与体系建设，后期基于品牌视角切入客户服务，打通品牌理念与服务交付闭环。主导客户服务标准化体系应用与培训，建立客诉分级处理与舆情监测闭环机制，统筹公司级品牌活动落地，实现品牌在业务端的真正转化。
+        </p>
+      </div>
+
+      <div class="py-8">
+        <div class="flex flex-wrap justify-between items-center mb-3">
+          <h4 class="text-xl font-semibold">上海艾绿文化旅游发展(集团)有限公司 | 品牌经理</h4>
+          <span class="text-muted text-sm">2021.04 - 2022.12（1年9个月）</span>
+        </div>
+        <p class="text-muted leading-relaxed">
+          搭建集团品牌管理体系与自媒体矩阵，统筹内容生产与多平台运营；出品全系列品牌宣传资料，赋能集团筹开项目制定企划方案，对接数十家媒体资源，实现项目全网曝光破亿。
+        </p>
+      </div>
+
+      <div class="py-8">
+        <div class="flex flex-wrap justify-between items-center mb-3">
+          <h4 class="text-xl font-semibold">浙江原乡文旅集团股份有限公司 | 品牌经理</h4>
+          <span class="text-muted text-sm">2019.10 - 2020.12（1年3个月）</span>
+        </div>
+        <p class="text-muted leading-relaxed">
+          负责集团品牌建设与团队管理，统筹新媒体账号运营，在职期间公众号阅读量提升30%、粉丝增长10000+；策划并落地线上线下品牌活动，打造项目对外品牌形象，实现会员稳定增长2万人，社群规模从0搭建至600+人。
+        </p>
+      </div>
+
+      <div class="text-center text-muted pt-6 text-lg">
+        · · · 过往更多工作经历 暂不逐一展示 · · ·
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Works -->
+<section id="works" class="py-28 border-t border-line">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <h2 class="text-2xl font-semibold mb-16 text-center">作品展示</h2>
+
+    <div class="space-y-24">
+
+      <!-- 品牌画册 & 宣传物料 -->
+      <div>
+        <h3 class="text-lg font-semibold mb-6">品牌画册 & 宣传物料</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+          <a href="files/huace_yuanxiang.pdf" target="_blank"
+             class="group block border border-line overflow-hidden hover:border-primary transition">
+            <div class="aspect-[4/3] overflow-hidden">
+              <img src="images/huace_yuanxiang.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="p-4">
+              <h4 class="font-medium text-sm mb-1">原乡文旅集团品牌画册</h4>
+              <p class="text-xs text-muted">企业品牌体系化输出 / 文旅项目形象构建</p>
+            </div>
+          </a>
+
+          <a href="files/huace_ailv.pdf" target="_blank"
+             class="group block border border-line overflow-hidden hover:border-primary transition">
+            <div class="aspect-[4/3] overflow-hidden">
+              <img src="images/huace_ailv.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="p-4">
+              <h4 class="font-medium text-sm mb-1">艾绿集团宣传画册</h4>
+              <p class="text-xs text-muted">项目品牌视觉系统 / 招商传播核心物料</p>
+            </div>
+          </a>
+
+          <a href="files/zhuankan_ailv.pdf" target="_blank"
+             class="group block border border-line overflow-hidden hover:border-primary transition">
+            <div class="aspect-[4/3] overflow-hidden">
+              <img src="images/zhuankan_ailv.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="p-4">
+              <h4 class="font-medium text-sm mb-1">艾绿集团品牌专刊</h4>
+              <p class="text-xs text-muted">品牌内容策划 / 企业价值观深度表达</p>
+            </div>
+          </a>
+
+          <!-- ✅ 原乡六乐（已修正为 PDF） -->
+          <a href="files/liule.pdf" target="_blank"
+             class="group block border border-line overflow-hidden hover:border-primary transition">
+            <div class="aspect-[4/3] overflow-hidden">
+              <img src="images/liule_01.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="p-4">
+              <h4 class="font-medium text-sm mb-1">原乡六乐品牌内容</h4>
+              <p class="text-xs text-muted">品牌文化体系 / 生活方式主张</p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- 品牌策略落地与业务实践 -->
+      <div>
+        <h3 class="text-lg font-semibold mb-6">品牌策略落地与业务实践</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+          <a href="images/service_training.jpg" target="_blank"
+             class="group block border border-line overflow-hidden hover:border-primary transition">
+            <div class="aspect-[4/3] overflow-hidden">
+              <img src="images/service_training.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="p-4">
+              <h4 class="font-medium text-sm mb-1">客户服务标准落地</h4>
+              <p class="text-xs text-muted">品牌视角下的客户服务标准执行与培训</p>
+            </div>
+          </a>
+
+          <a href="images/yuqing_report.jpg" target="_blank"
+             class="group block border border-line overflow-hidden hover:border-primary transition">
+            <div class="aspect-[4/3] overflow-hidden">
+              <img src="images/yuqing_report.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="p-4">
+              <h4 class="font-medium text-sm mb-1">品牌舆情监测与维护</h4>
+              <p class="text-xs text-muted">多平台舆情监测 / 品牌风险日常维护</p>
+            </div>
+          </a>
+
+          <a href="images/brand_activity.jpg" target="_blank"
+             class="group block border border-line overflow-hidden hover:border-primary transition">
+            <div class="aspect-[4/3] overflow-hidden">
+              <img src="images/brand_activity.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="p-4">
+              <h4 class="font-medium text-sm mb-1">品牌活动统筹与执行</h4>
+              <p class="text-xs text-muted">品牌节点活动 / 跨部门统筹 / 品牌发声落地</p>
+            </div>
+          </a>
+
+          <a href="images/keusu_flow.jpg" target="_blank"
+             class="group block border border-line overflow-hidden hover:border-primary transition">
+            <div class="aspect-[4/3] overflow-hidden">
+              <img src="images/keusu_flow.jpg" class="w-full h-full object-cover" />
+            </div>
+            <div class="p-4">
+              <h4 class="font-medium text-sm mb-1">品牌客诉闭环管理</h4>
+              <p class="text-xs text-muted">客诉分级处理 / 流程闭环 / 品牌信任修复</p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- 新媒体内容运营 -->
+      <div>
+        <h3 class="text-lg font-semibold mb-6">新媒体内容运营</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+
+          <!-- ✅ 借势热点品牌推文 -->
+          <a href="https://mp.weixin.qq.com/s/eAi0jumPdxObIRgytt0VTw" target="_blank"
+             class="group block border border-line overflow-hidden hover:border-primary transition">
+            <div class="aspect-[16/9] overflow-hidden">
+              <img src="images/gzh_01.jpg" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div class="p-4">
+              <h4 class="font-medium text-sm mb-1">借势热点品牌推文</h4>
+              <p class="text-xs text-muted">热点借势 / 品牌主张表达</p>
+            </div>
+          </a>
+
+          <!-- ✅ 品牌活动征集推文 -->
+          <a href="https://mp.weixin.qq.com/s/krW9mXvj0484bHVcJvUOpQ" target="_blank"
+             class="group block border border-line overflow-hidden hover:border-primary transition">
+            <div class="aspect-[16/9] overflow-hidden">
+              <img src="images/gzh_02.jpg" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div class="p-4">
+              <h4 class="font-medium text-sm mb-1">品牌活动征集推文</h4>
+              <p class="text-xs text-muted">用户参与 / 活动话题引爆</p>
+            </div>
+          </a>
+
+          <!-- ✅ 集团年度总结推文 -->
+          <a href="https://mp.weixin.qq.com/s/p31Qq67IEcK7s0h-eDxP_g" target="_blank"
+             class="group block border border-line overflow-hidden hover:border-primary transition">
+            <div class="aspect-[16/9] overflow-hidden">
+              <img src="images/gzh_03.jpg" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div class="p-4">
+              <h4 class="font-medium text-sm mb-1">集团年度总结推文</h4>
+              <p class="text-xs text-muted">年度成果盘点 / 品牌价值沉淀</p>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- 项目品牌传播（仅保留艾绿） -->
+        <div>
+          <h4 class="text-sm font-medium mb-4 text-muted">项目品牌传播</h4>
+          <div class="grid md:grid-cols-2 gap-4">
+            
+            <!-- ✅ 艾绿文旅项目品牌传播 -->
+            <a href="https://house.cnr.cn/csdb/20210706/t20210706_525528421.html" target="_blank"
+               class="block border border-line p-4 hover:border-primary transition">
+              <h5 class="text-sm font-medium mb-1">艾绿文旅项目品牌传播</h5>
+              <p class="text-xs text-muted">多平台媒体矩阵 / 项目曝光与认知塑造</p>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 官网 & 官方阵地 -->
+      <div>
+        <h3 class="text-lg font-semibold mb-6">官网 & 官方阵地</h3>
+        <div class="grid md:grid-cols-2 gap-6">
+          
+          <!-- ✅ 官网链接（请替换为你自己的网址） -->
+          <a href="http://www.igreengroup.cn/index.html" target="_blank"
+             class="group block border border-line overflow-hidden hover:border-primary transition">
+            <div class="aspect-[16/9] overflow-hidden">
+              <img src="images/website_cover.jpg" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            </div>
+            <div class="p-4">
+              <h4 class="font-medium text-sm mb-1">集团官网运营</h4>
+              <p class="text-xs text-muted">品牌信息中枢 / 官方形象统一维护</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-12 border-t border-line text-center text-sm text-muted">
+  <p class="mb-4">求职意向：品牌管理 / 客户成功经理 / 综合管理</p>
+  <div class="flex justify-center gap-8 mb-6">
+    <span>18767125005</span>
+    <span>chenmengyuan22@gmail.com</span>
+    <span>微信号：cmy511330</span>
+  </div>
+  <p class="text-xs">&copy; 2026 陈梦园 · 品牌作品集</p>
+</footer>
+
+</body>
+</html>
